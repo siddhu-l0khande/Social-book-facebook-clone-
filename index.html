@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Socail-book</title>
+    <script src="https://kit.fontawesome.com/c83b4159ba.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="navleft">
+            <a href="index.html">
+                <img src="images/logo.png" class="logo">
+            </a>
+
+            <ul>
+                <li><img src="images/notification.png" ></li>
+                <li><img src="images/inbox.png" ></li>
+                <li><img src="images/video.png" ></li>
+                
+            </ul>
+        </div>
+        <div class="navright">
+            <div class="searchbox">
+                <img src="images/search.png">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="usericon online " onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png" >
+            </div>
+        </div>
+<!-- ....................................setting menu....................................................... -->
+        
+        <div class="settingsmenu">
+
+            <div id="darkbutton">
+                <span></span>
+            </div>
+            <div class="settingsmenuinner">
+                <div class="userprofile">
+                    <img src="images/profile-pic.png" >
+                    <div>
+                        <p>John Nicholson</p>
+                        <a href="profile.html">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="userprofile">
+                    <img src="images/feedback.png" >
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settinglinks">
+                    <img src="images/setting.png" class="settingsicon">
+                    <a href="#">settings & privacy <img src="images/arrow.png" width="10px"></a> 
+                </div>
+                <div class="settinglinks">
+                    <img src="images/help.png" class="settingsicon">
+                    <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a> 
+                </div>
+                <div class="settinglinks">
+                    <img src="images/display.png" class="settingsicon">
+                    <a href="#">Display & Accessiblity <img src="images/arrow.png" width="10px"></a> 
+                </div>
+                <div class="settinglinks">
+                    <img src="images/logout.png" class="settingsicon">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px"></a> 
+                </div>
+
+            </div>
+
+
+        </div>
+    </nav>
+     <!-- .................leftsidebar ka code hai bhai samj liyo.....................  -->
+
+    <div class="container">
+       
+        <div class="leftsidebar">
+            <div class="implinks">
+                <a href="#"><img src="images/news.png">Latest News</a>
+                <a href="#"><img src="images/friends.png">Friends</a>
+                <a href="#"><img src="images/group.png">Groups</a>
+                <a href="#"><img src="images/marketplace.png">Marketplace</a>
+                <a href="#"><img src="images/watch.png">Watch</a>
+                <a href="#">See More</a>
+            </div>
+
+            <div class="shortcutlinks">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="images/shortcut-1.png" >Web Developers</a>
+                <a href="#"><img src="images/shortcut-2.png" >Web Design courses</a>
+                <a href="#"><img src="images/shortcut-3.png" >Full Stack Development</a>
+                <a href="#"><img src="images/shortcut-4.png" >Experts</a>
+                
+            </div>
+
+        </div>
+         <!-- .................maincontent ka code hai bhai samj liyo.....................  -->
+        <div class="maincontent">
+
+
+            <div class="storygallery">
+                <div class="story story1">
+                    <img src="images/upload.png" >
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/member-1.png" >
+                    <p>Alison</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/member-2.png" >
+                    <p>Jackson</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/member-3.png" >
+                    <p>Samona</p>
+                </div>
+                <div class="story story5">
+                    <img src="images/member-4.png" >
+                    <p>John Doe</p>
+                </div>
+            </div>
+
+            <div class="writepostcontainer">
+                <div class="userprofile">
+                    <img src="images/profile-pic.png" >
+                    <div>
+                        <p>John Nicholson</p>
+                        <small>public <i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="postinputcontainer">
+                    <textarea rows="3" placeholder="whats on your mind john"></textarea>
+
+                    <div class="addpostlinks">
+                        <a href="#"><img src="images/live-video.png" >Live Video</a>
+                        <a href="#"><img src="images/photo.png" >Photo/Video/a>
+                        <a href="#"><img src="images/feeling.png" >Feeling/Activity</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="postcontainer">
+                <div class="postrow">
+                    <div class="userprofile">
+                        <img src="images/profile-pic.png" >
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 24 2024,13:40pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+
+                </div>
+                
+
+                <p class="posttext">Subscribe Follow <span>@siddhu_001 </span>intaagraam handle of the developer of this website and contact on this id for the development 
+                    of the website <a href="#">#website developer</a> <a href="#">@siddhu_001</a></p>
+
+                    <img src="images/feed-image-1.png" class="postimg">
+
+                    <div class="postrow">
+                        <div class="activityicons">
+                            <div><img src="images/like-blue.png" >120</div>
+                            <div><img src="images/comments.png" >45</div>
+                            <div><img src="images/share.png" >20</div>
+
+                        </div>
+                        <div class="postprofileicon">
+                            <img src="images/profile-pic.png" ><i class="fa-solid fa-caret-down"></i>
+
+                        </div>
+                    </div>
+                
+
+            </div>
+            <div class="postcontainer">
+                <div class="postrow">
+                    <div class="userprofile">
+                        <img src="images/profile-pic.png" >
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 24 2024,13:40pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+
+                </div>
+                
+
+                <p class="posttext">like share Follow <span>@siddhu_001 </span>intaagraam handle of the developer of this website and contact on this id for the development 
+                    of the website <a href="#">#website developer</a> <a href="#">@siddhu_001</a></p>
+
+                    <img src="images/feed-image-2.png" class="postimg">
+
+                    <div class="postrow">
+                        <div class="activityicons">
+                            <div><img src="images/like.png" >110</div>
+                            <div><img src="images/comments.png" >25</div>
+                            <div><img src="images/share.png" >30</div>
+
+                        </div>
+                        <div class="postprofileicon">
+                            <img src="images/profile-pic.png" ><i class="fa-solid fa-caret-down"></i>
+
+                        </div>
+                    </div>
+                
+
+            </div>
+            <div class="postcontainer">
+                <div class="postrow">
+                    <div class="userprofile">
+                        <img src="images/profile-pic.png" >
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 24 2024,13:40pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+
+                </div>
+                
+
+                <p class="posttext">like share Follow <span>@siddhu_001 </span>intaagraam handle of the developer of this website and contact on this id for the development 
+                    of the website <a href="#">#website developer</a> <a href="#">@siddhu_001</a></p>
+
+                    <img src="images/feed-image-3.png" class="postimg">
+
+                    <div class="postrow">
+                        <div class="activityicons">
+                            <div><img src="images/like.png" >115</div>
+                            <div><img src="images/comments.png" >25</div>
+                            <div><img src="images/share.png" >30</div>
+
+                        </div>
+                        <div class="postprofileicon">
+                            <img src="images/profile-pic.png" ><i class="fa-solid fa-caret-down"></i>
+
+                        </div>
+                    </div>
+                
+
+            </div>
+            <div class="postcontainer">
+                <div class="postrow">
+                    <div class="userprofile">
+                        <img src="images/profile-pic.png" >
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 24 2024,13:40pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+
+                </div>
+                
+
+                <p class="posttext">like share Follow <span>@siddhu_001 </span>intaagraam handle of the developer of this website and contact on this id for the development 
+                    of the website <a href="#">#website developer</a> <a href="#">@siddhu_001</a></p>
+
+                    <img src="images/feed-image-4.png" class="postimg">
+
+                    <div class="postrow">
+                        <div class="activityicons">
+                            <div><img src="images/like.png" >118</div>
+                            <div><img src="images/comments.png" >25</div>
+                            <div><img src="images/share.png" >30</div>
+
+                        </div>
+                        <div class="postprofileicon">
+                            <img src="images/profile-pic.png" ><i class="fa-solid fa-caret-down"></i>
+
+                        </div>
+                    </div>
+                
+
+            </div>
+            <div class="postcontainer">
+                <div class="postrow">
+                    <div class="userprofile">
+                        <img src="images/profile-pic.png" >
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 24 2024,13:40pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+
+                </div>
+                
+
+                <p class="posttext">like share Follow <span>@siddhu_001 </span>intaagraam handle of the developer of this website and contact on this id for the development 
+                    of the website <a href="#">#website developer</a> <a href="#">@siddhu_001</a></p>
+
+                    <img src="images/feed-image-5.png" class="postimg">
+
+                    <div class="postrow">
+                        <div class="activityicons">
+                            <div><img src="images/like.png" >111</div>
+                            <div><img src="images/comments.png" >25</div>
+                            <div><img src="images/share.png" >30</div>
+
+                        </div>
+                        <div class="postprofileicon">
+                            <img src="images/profile-pic.png" ><i class="fa-solid fa-caret-down"></i>
+
+                        </div>
+                    </div>
+                
+
+            </div>
+            <button class="loadmorebutton">Load More</button>
+
+
+
+
+
+        </div>
+         <!-- .................rightsidebar ka code hai bhai samj liyo.....................  -->
+        <div class="rightsidebar">
+
+            <div class="sidebartitle">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="Event">
+                <div class="leftevent">
+                    <h3>18</h3>
+                    <span>march</span>
+
+                </div>
+                <div class="rightevent">
+                    <h4>Social Media</h4>
+                    <p><i class="fa-solid fa-location-dot"></i>Willson Tech Park</p>
+                    <a href="#">More Info</a>
+
+                </div>
+            </div>
+            <div class="Event">
+                <div class="leftevent">
+                    <h3>22</h3>
+                    <span>June</span>
+
+                </div>
+                <div class="rightevent">
+                    <h4>Mobile Marketing</h4>
+                    <p><i class="fa-solid fa-location-dot"></i>Willson Tech Park</p>
+                    <a href="#">More Info</a>
+
+                </div>
+            </div>
+
+            <div class="sidebartitle">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+
+            <img src="images/advertisement.png" class="sidebarads">
+
+            <div class="sidebartitle">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+
+
+            <div class="onlinelist">
+                <div class="online">
+                    <img src="images/member-1.png" >
+                </div>
+                <p>Alis Mina</p>
+            </div>
+            <div class="onlinelist">
+                <div class="online">
+                    <img src="images/member-2.png" >
+                </div>
+                <p>Jackson Aston</p>
+            </div>
+            <div class="onlinelist">
+                <div class="online">
+                    <img src="images/member-3.png" >
+                </div>
+                <p>Samona Rose</p>
+            </div>
+
+
+
+
+        </div>
+        
+    </div>
+    <div class="footer">
+        <p>copyright 2024 -siddhant  </p>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
